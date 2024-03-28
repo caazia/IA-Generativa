@@ -1,7 +1,7 @@
 # Explorando os Recursos de IA Generativa com Copilot e OpenAI
 
 
-<h4> Explore a IA generativa com o Microsoft Copilot </h4>
+#### Explore a IA generativa com o Microsoft Copilot 
 Neste exercício você explorará a IA generativa com o Microsoft Copilot.
 
 Faça login no Microsoft Copilot
@@ -17,7 +17,7 @@ Na parte inferior da tela, você verá uma janela Pergunte-me qualquer coisa . �
 
 
 
-<h4> Use prompts para gerar respostas </h4>
+#### Use prompts para gerar respostas 
 
 Digite um prompt: What are 3 pros and cons of traveling in the winter?. Você verá Searching for:… e Generating… aparecer antes da resposta. O modelo usa as respostas pesquisadas como informação de base para gerar respostas originais. Observe que o final da resposta contém links para suas fontes.
 
@@ -36,7 +36,7 @@ O botão Novo tópico próximo à janela de bate-papo é útil. Clicar nele limp
 ![alt text](image-3.png)
 
 
-<h4> Experimente a geração de imagens </h4>
+#### Experimente a geração de imagens 
 
 Agora vamos ver um exemplo de geração de imagens. Digite um prompt: Create an image of an elephant eating a hamburger. Observe que uma mensagem que tentarei criar que… aparece antes que o Copilot retorne uma resposta.
 
@@ -50,7 +50,7 @@ Retorne ao chat do Copilot clicando no ícone do Microsoft Bing no canto superio
 
 
 
-<h4> Experimente a geração de código </h4>
+#### Experimente a geração de código 
 
 Agora vamos ver um exemplo de geração e tradução de código. Digite um prompt: Use Python to create a list.
 
@@ -84,7 +84,7 @@ namespace MyNamespace
 
 
 
-<h4> Tarefa bônus </h4>
+#### Tarefa bônus 
 
 Digite um prompt: What are 3 examples of generative AI helping people?. Você pode usar isso como uma forma de debater suas próprias ideias de copiloto!
 
@@ -110,7 +110,7 @@ These examples demonstrate how generative AI is leaving a profound imprint on va
 
 
 
-<h3> Explore o Azure OpenAI </h3>
+### Explore o Azure OpenAI 
 
 O Azure OpenAI Service traz os modelos generativos de IA desenvolvidos pela OpenAI para a plataforma Azure, permitindo-lhe desenvolver soluções poderosas de IA que beneficiam da segurança, escalabilidade e integração de serviços fornecidos pela plataforma de nuvem Azure.
 
@@ -119,7 +119,7 @@ Neste exercício, você explorará o serviço Azure OpenAI e o usará para impla
 Este exercício levará aproximadamente 25 minutos.
 
 
-<h3> Provisionar um recurso Azure OpenAI </h3>
+### Provisionar um recurso Azure OpenAI 
 
 Antes de poder utilizar modelos Azure OpenAI, deve fornecer um recurso Azure OpenAI na sua subscrição do Azure.
 
@@ -139,10 +139,14 @@ Aguarde a conclusão da implantação. Em seguida, acesse o recurso Azure OpenAI
 
 Não foi possível realizar o lab de Open AI.
 
+### Conclusão
 
+O Microsoft Copilot representa uma verdadeira revolução na forma como nos relacionamos com a tecnologia. Suas habilidades de gerar texto, imagens e código a partir da linguagem natural abrem novos horizontes tanto para programadores quanto para a comunicação em geral. Com sua inteligência artificial avançada, o Copilot não apenas simplifica a vida dos desenvolvedores, mas também democratiza o acesso à tecnologia. No entanto, como toda tecnologia emergente, é crucial lembrar que o Copilot é uma ferramenta de auxílio, não um substituto para o discernimento humano. À medida que continuamos a explorar suas possibilidades, devemos também considerar as implicações éticas e de privacidade associadas a essa jornada. O futuro é promissor, e o Microsoft Copilot representa um passo significativo nessa trajetória.
 
 ### Links
 
-Copilot: https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/12-generative-ai.html
+- https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/12-generative-ai.html
 
-OpenAI: https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/13-azure-openai.html
+- https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/13-azure-openai.html
+
+- https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/14-azure-openai-content-filters.html
