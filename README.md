@@ -1,143 +1,122 @@
 # Explorando os Recursos de IA Generativa com Copilot e OpenAI
 
 
-#### Explore a IA generativa com o Microsoft Copilot 
+### Explore a IA generativa com o Microsoft Copilot 
+
 Neste exercício você explorará a IA generativa com o Microsoft Copilot.
 
-Faça login no Microsoft Copilot
-Abra copilot.microsoft.com e entre com sua conta pessoal da Microsoft.
+#### Faça login no Microsoft Copilot
 
-O Microsoft Copilot usa IA generativa para aprimorar os resultados de pesquisa do Bing. O que isto significa é que, diferentemente da pesquisa apenas, que retorna conteúdo existente, o Microsoft Copilot pode reunir novas respostas com base na modelagem de linguagem natural e nas informações da web.
+1. Abra o Microsoft Copilot em https://copilot.microsoft.com e entre com sua conta pessoal da Microsoft.
 
-Na parte inferior da tela, você verá uma janela Pergunte-me qualquer coisa . À medida que você insere prompts na janela, o Copilot usa todo o thread da conversa para retornar respostas. Por exemplo, vamos tentar fazer uma série de perguntas sobre viagens.
+2. O Microsoft Copilot usa IA generativa para aprimorar os resultados de pesquisa do Bing. O que isto significa é que, diferentemente da pesquisa apenas, que retorna conteúdo existente, o Microsoft Copilot pode reunir novas respostas com base na modelagem de linguagem natural e nas informações da web.
 
-![alt text](image-1.png)
+3. Na parte inferior da tela, você verá uma janela Pergunte-me qualquer coisa. À medida que você insere prompts na janela, o Copilot usa todo o thread da conversa para retornar respostas. Por exemplo, vamos tentar fazer uma série de perguntas sobre viagens.
 
-![alt text](image-2.png)
+![tela inicial copilot](./inputs/img01.png)
 
+![tela teste de perguntas](./inputs/img02.png)
 
 
 #### Use prompts para gerar respostas 
 
-Digite um prompt: What are 3 pros and cons of traveling in the winter?. Você verá Searching for:… e Generating… aparecer antes da resposta. O modelo usa as respostas pesquisadas como informação de base para gerar respostas originais. Observe que o final da resposta contém links para suas fontes.
+1. Digite um prompt: Quais são os três prós e contras de viajar no inverno? Você verá Searching for:… e Generating… aparecer antes da resposta. O modelo usa as respostas pesquisadas como informação de base para gerar respostas originais. Observe que o final da resposta contém links para suas fontes.
 
-![alt text](image.png)
+![tela teste de prompt 01](./inputs/img03.png)
 
-Nota : Se você não vir uma mensagem *Generating… ou uma resposta de lista com marcadores, você ainda não conseguiu ver o Copilot em ação. Você precisa retornar ao menu de login e conectar a conta atual que está usando com uma conta pessoal.
 
-Digite um prompt: Find me 3 more pros. O que você quer dizer com esta mensagem é que gostaria de ver mais três motivos positivos para viajar no inverno que ainda não foram listados. Observe que, com esse prompt, você está solicitando ao Copilot que faça duas coisas que a pesquisa por si só não faz: usar a resposta do chat anterior para excluir o que é retornado na nova resposta e usar o tópico do chat anterior sem declará-lo explicitamente.
+2. Digite um prompt: Encontre mais 3 profissionais. O que você quer dizer com esta mensagem é que gostaria de ver mais três motivos positivos para viajar no inverno que ainda não foram listados. Observe que, com esse prompt, você está pedindo ao Copilot para fazer duas coisas que a pesquisa por si só não faz: usar a resposta do chat anterior para excluir o que é retornado na nova resposta e usar o tópico do chat anterior sem declará-lo explicitamente.
 
-Digite um prompt: Where are 3 places I can go to find fewer crowds?.
+![tela teste de prompt 02](./inputs/img04.png)
 
-Observação : observe que, embora o Copilot seja capaz de fornecer uma resposta relacionada, ele pode eliminar “memórias” anteriores do tópico da conversa à medida que continua. Como resultado, as respostas que você obtém podem não estar diretamente relacionadas às viagens no inverno. Isso tem muito a ver com limitações de entrada de token. Quando o chat “lembra” partes anteriores de uma conversa, é porque economizou uma certa quantidade de tokens da conversa. À medida que novos tokens são introduzidos por meio de suas novas solicitações e respostas, o chat irá liberar os tokens mais antigos.
+3. Digite um prompt: Quais são os três lugares onde posso ir para encontrar menos multidões?
 
-O botão Novo tópico próximo à janela de bate-papo é útil. Clicar nele limpa o tópico da conversa anterior para que as respostas do novo tópico não sejam baseadas no tópico anterior. Use o ícone Novo tópico próximo à janela de bate-papo para limpar seu histórico de mensagens.
+![tela teste de prompt 03](./inputs/img05.png)
 
-![alt text](image-3.png)
+4. O botão Novo tópico próximo à janela de bate-papo é útil. Clicar nele limpa o tópico da conversa anterior para que as respostas do novo tópico não sejam baseadas no tópico anterior. Use o ícone Novo tópico próximo à janela de bate-papo para limpar seu histórico de mensagens.
+
+![novo topico](./inputs/img06.png)
 
 
 #### Experimente a geração de imagens 
 
-Agora vamos ver um exemplo de geração de imagens. Digite um prompt: Create an image of an elephant eating a hamburger. Observe que uma mensagem que tentarei criar que… aparece antes que o Copilot retorne uma resposta.
+1. Agora vamos ver um exemplo de geração de imagens. Digite um prompt: Crie a imagem de um elefante comendo um hambúrguer. Observe que uma mensagem que tentarei criar que… aparece antes que o Copilot retorne uma resposta.
 
-![alt text](image-4.png)
+![elefante comendo hamburguer](./inputs/img07.png)
 
-É importante notar que a resposta pode parecer semelhante, mas não igual. Isso ocorre porque as respostas são variadas.
-
-Na resposta, há um texto na parte inferior que diz “Powered by DALL-E”. Considere como o DALL-E é baseado em grandes modelos de linguagem, à medida que sua entrada de linguagem natural gera imagens.
-
-Retorne ao chat do Copilot clicando no ícone do Microsoft Bing no canto superior direito da tela.
-
+2. Na resposta, há um texto na parte inferior que diz “Powered by DALL-E”. DALL-E é um modelo de linguagem grande que gera imagens a partir de entrada de linguagem natural.
 
 
 #### Experimente a geração de código 
 
-Agora vamos ver um exemplo de geração e tradução de código. Digite um prompt: Use Python to create a list.
+1. Agora vamos ver um exemplo de geração e tradução de código. Digite um prompt: Use Python para criar uma lista.
 
-Digite no prompt: Translate that into C#. Observe como você não precisou especificar o que é “aquilo”, como o Copilot sabe para se referir ao histórico de conversas.
+2. Digite no prompt: Traduza isso para C#. Observe como você não precisou especificar o que é “aquilo”, como o Copilot sabe para se referir ao histórico de conversas.
 
-![alt text](image-5.png)
 
-![alt text](image-7.png)
+![tela lista python](./inputs/img08.png)
+
+![tela lista c#](./inputs/img09.png)
+
 
 ```
 using System;
 using System.Collections.Generic;
-namespace MyNamespace
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            List<object> myList = new List<object>
-            {
-                10, 20, 30, "apple", "banana", true
-            };
 
-            foreach (var item in myList)
-            {
-                Console.WriteLine(item);
-            }
+class Program
+{
+    static void Main()
+    {
+        List<int> listaNumeros = new List<int> { 1, 2, 3, 4, 5 };
+        foreach (int numero in listaNumeros)
+        {
+            Console.WriteLine(numero);
         }
     }
 }
-```
 
+
+```
 
 #### Tarefa bônus 
 
-Digite um prompt: What are 3 examples of generative AI helping people?. Você pode usar isso como uma forma de debater suas próprias ideias de copiloto!
+Digite um prompt: Quais são três exemplos de IA generativa ajudando as pessoas? Você pode usar isso como uma forma de debater suas próprias ideias de copiloto!
 
 
-![alt text](image-8.png)
-
-Resposta do Copilot:
-
-Copilot
-Certainly! Generative AI has made significant strides in various fields, benefiting people in practical ways. Let’s explore three examples:
-
-Healthcare Applications:
-Conversational AI Apps for Patients: Take Ada, for instance. It’s a doctor-developed symptom assessment app that offers medical guidance in multiple languages. By combining human expertise with AI, Ada supports improved health outcomes and delivers exceptional clinical excellence1.
-Early Disease Detection: The SkinVision app uses AI for early detection of skin cancer. Through regulated medical services and expert input, it educates users on self-examination, risk understanding, and immediate concerns1.
-AI for Accessibility: The Virtual Volunteer (also known as Be My Eyes) app assists visually impaired individuals. Powered by GPT-4, it instantly converts images into text, providing real-time identification, interpretation, and conversational visual assistance1.
-Patient Interactions and Support: Hyro, a conversational AI, is designed specifically for health systems. It enhances patient engagement, automates common interactions, and helps overcome staffing shortages1.
-Drug Discovery and Research:
-Generative AI trained on scientific data aids researchers. For example, medical researchers use it to develop new molecular structures, while physicists test how different elements interact2.
-Content Creation and Creativity:
-Generative AI is used for content automation, style transfer, simulations, music composition, and image super-resolution. Tools like Scribe, TensorFlow, PyTorch, OpenAI GPT-3, and NVlabs StyleGAN enable creative applications3.
-These examples demonstrate how generative AI is leaving a profound imprint on various aspects of our lives, from healthcare to creativity. 🌟🤖
-
-
+![tarefa bonus](./inputs/img10.png)
 
 
 ### Explore o Azure OpenAI 
 
-O Azure OpenAI Service traz os modelos generativos de IA desenvolvidos pela OpenAI para a plataforma Azure, permitindo-lhe desenvolver soluções poderosas de IA que beneficiam da segurança, escalabilidade e integração de serviços fornecidos pela plataforma de nuvem Azure.
+O Azure OpenAI inclui filtros de conteúdo padrão para ajudar a garantir que solicitações e conclusões potencialmente prejudiciais sejam identificadas e removidas das interações com o serviço. Além disso, você pode solicitar permissão para definir filtros de conteúdo personalizados para suas necessidades específicas, a fim de garantir que as implantações de seu modelo imponham os princípios de IA responsáveis ​​apropriados para seu cenário de IA generativa. A filtragem de conteúdo é um elemento de uma abordagem eficaz para IA responsável ao trabalhar com modelos de IA generativos.
 
-Neste exercício, você explorará o serviço Azure OpenAI e o usará para implantar e experimentar modelos de IA generativos.
+Neste exercício, você explorará o efeito dos filtros de conteúdo padrão no Azure OpenAI.
 
 Este exercício levará aproximadamente 25 minutos.
+
+#### Antes que você comece
+
+Você precisará de uma assinatura do Azure aprovada para acesso ao serviço Azure OpenAI.
+
+Para se inscrever para uma assinatura gratuita do Azure, visite https://azure.microsoft.com/free.
+Para solicitar acesso ao serviço Azure OpenAI, visite https://aka.ms/oaiapply.
 
 
 ### Provisionar um recurso Azure OpenAI 
 
 Antes de poder utilizar modelos Azure OpenAI, deve fornecer um recurso Azure OpenAI na sua subscrição do Azure.
 
-Entre no portal do Azure .
-Crie um recurso Azure OpenAI com as seguintes configurações:
+1. Entre no portal do Azure .
+2. Crie um recurso Azure OpenAI com as seguintes configurações:
 
-Assinatura : uma assinatura do Azure que foi aprovada para acesso ao serviço Azure OpenAI.
-Grupo de recursos : escolha um grupo de recursos existente ou crie um novo com um nome de sua preferência.
-Região : Escolha qualquer região disponível.
-Nome : Um nome exclusivo de sua escolha.
-Nível de preços : Padrão S0
-Aguarde a conclusão da implantação. Em seguida, acesse o recurso Azure OpenAI implantado no portal do Azure.
+> - Assinatura : uma assinatura do Azure que foi aprovada para acesso ao serviço Azure OpenAI.
+> - Grupo de recursos : escolha um grupo de recursos existente ou crie um novo com um nome de sua preferência.
+> - Região : Escolha qualquer região disponível.
+> - Nome : Um nome exclusivo de sua escolha.
+> - Nível de preços : Padrão S0
+3. Aguarde a conclusão da implantação. Em seguida, acesse o recurso Azure OpenAI implantado no portal do Azure.
 
-![alt text](image-9.png)
-
-![alt text](image-10.png)
-
-Não foi possível realizar o lab de Open AI.
+* Não foi realizado o requerimento para o Acesso para o Azure OpenAI Service, pois só tenho email pessoal.
 
 ### Conclusão
 
