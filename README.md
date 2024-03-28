@@ -60,9 +60,9 @@ Digite no prompt: Translate that into C#. Observe como você não precisou espec
 
 ![alt text](image-7.png)
 
+```
 using System;
 using System.Collections.Generic;
-
 namespace MyNamespace
 {
     class Program
@@ -81,7 +81,7 @@ namespace MyNamespace
         }
     }
 }
-
+```
 
 
 #### Tarefa bônus 
